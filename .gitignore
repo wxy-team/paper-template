@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+# ignore compiled pdf output file.
+paper-demo*.pdf
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# ignore temp files
+.ipynb_checkpoints
+*.pyc
+*.mat
+*~
+*.asv
+*.log
+*.aux
+*.bcf
+*.run.xml
+*.bbl
+*.blg
+*.ttf
+*.ttc
+*.lock
+*~
+*.fdb_latexmk
+*.fls
+*.synctex.gz
